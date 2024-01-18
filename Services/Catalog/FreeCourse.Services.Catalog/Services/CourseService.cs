@@ -12,7 +12,7 @@ using ThirdParty.BouncyCastle.Asn1;
 
 namespace FreeCourse.Services.Catalog.Services
 {
-    public class CourseService
+    public class CourseService:ICourseService
     {
         private readonly IMongoCollection<Course> _courseCollection;
         private readonly IMongoCollection<Category> _categoryCollection;
