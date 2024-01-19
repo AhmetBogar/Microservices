@@ -22,6 +22,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.IdentityServer", "IdentityServer\FreeCourse.IdentityServer\FreeCourse.IdentityServer.csproj", "{D568D904-088B-49A7-B091-8C99DCB45BEF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", "{AF89E41E-AF22-43D8-A5CB-1E8CA0C10A83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Services.PhotoStock", "Services\PhotoStock\FreeCourse.Services.PhotoStock\FreeCourse.Services.PhotoStock.csproj", "{ADB2AE7F-472D-428F-9BC9-B16AF0A98516}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +44,10 @@ Global
 		{D568D904-088B-49A7-B091-8C99DCB45BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D568D904-088B-49A7-B091-8C99DCB45BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D568D904-088B-49A7-B091-8C99DCB45BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB2AE7F-472D-428F-9BC9-B16AF0A98516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB2AE7F-472D-428F-9BC9-B16AF0A98516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB2AE7F-472D-428F-9BC9-B16AF0A98516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB2AE7F-472D-428F-9BC9-B16AF0A98516}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +57,8 @@ Global
 		{84A2F902-CA4C-4BA0-BB9B-628A9736D942} = {15BF0DCA-9B58-47C9-9190-CC231BB25DD6}
 		{6951B8B8-2D3F-4C38-B202-8B263331CDA2} = {A165257A-626E-401D-8761-807081B1FFC0}
 		{D568D904-088B-49A7-B091-8C99DCB45BEF} = {DCF41ED2-D848-405A-B029-8E2B327CC186}
+		{AF89E41E-AF22-43D8-A5CB-1E8CA0C10A83} = {DE9C3E91-B8B1-4B8F-A639-476CCF65A833}
+		{ADB2AE7F-472D-428F-9BC9-B16AF0A98516} = {AF89E41E-AF22-43D8-A5CB-1E8CA0C10A83}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1499163-B67F-403A-BD12-243F2E3C5292}
