@@ -57,9 +57,5 @@ namespace FreeCourse.IdentityServer.Controllers
 
             return Ok(new {Id=user.Id,UserName=user.UserName,Email=user.Email,City=user.City});
         }
-        public Task<IActionResult> Test()
-        {
-            return Ok();
-        }
     }
 }
